@@ -20,7 +20,7 @@ Vertical slider
 Testimonial slider
 Room Suite slider
 welcome four box slider
-zebraDatePickerInit 
+zebraDatePickerInit
 GalleryFilter
 Family Fun Gallery
 fancyboxInit
@@ -34,6 +34,17 @@ Select drop down
 ----------------------------------------
 --------------------------------------*/
 
+function unWrapPlaceholder(){
+   $(this).contents().unwrap();
+ }
+
+
+  $(function(){
+     $(".include").each(function(index){
+       $(this).load(window.location.hostname+"/shared/"+$(this).data("module")+".html", unWrapPlaceholder);
+     });
+  });
+
 (function($) {
     "use strict";
 
@@ -43,7 +54,7 @@ Select drop down
 		 * on SitePoint by Maria Antonietta Perna
 		 */
 
-		//Function to animate slider captions 
+		//Function to animate slider captions
 		function doAnimations(elems) {
 			//Cache the animationend event in a variable
 			var animEndEv = 'webkitAnimationEnd animationend';
@@ -57,23 +68,23 @@ Select drop down
 			})
 		}
 
-		//Variables on page load 
+		//Variables on page load
 		var $myCarousel = $('#minimal-bootstrap-carousel'),
 			$firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
 
-		//Initialize carousel 
+		//Initialize carousel
 		$myCarousel.carousel({
 			interval: 7000
 		});
 
-		//Animate captions in first slide on page load 
+		//Animate captions in first slide on page load
 		doAnimations($firstAnimatingElems);
 
-		//Pause carousel  
+		//Pause carousel
 		$myCarousel.carousel('pause');
 
 
-		//Other slides to be animated on carousel slide event 
+		//Other slides to be animated on carousel slide event
 		$myCarousel.on('slide.bs.carousel', function(e) {
 			var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
 			doAnimations($animatingElems)
@@ -84,7 +95,7 @@ Select drop down
 	function SmoothMenuScroll () {
 		// must install jquery easein plugin
 
-		var anchor = $('.scrollToLink');		
+		var anchor = $('.scrollToLink');
 		if(anchor.length){
 			anchor.children('a').bind('click', function (event) {
 				var target = $(this);
@@ -106,19 +117,19 @@ Select drop down
 		menuWrap.find('.dropdown').children('a').append(function () {
 			return '<button type="button" class="btn expander"><i class="fa fa-chevron-down"></i></button>'
 		});
-		// hidding submenu 
+		// hidding submenu
 		menuWrap.find('.dropdown').children('ul').hide();
 		// toggling child ul
 		menuWrap.find('.btn.expander').each(function () {
 			$(this).on('click', function () {
-				$(this).parent() // return parent of .btn.expander (a) 
+				$(this).parent() // return parent of .btn.expander (a)
 					.parent() // return parent of a (li)
 					.children('ul').slideToggle();
 
 				// adding class to expander container
 				$(this).parent().toggleClass('current');
 				// toggling arrow of expander
-				$(this).find('i').toggleClass('fa-chevron-up fa-chevron-down');			
+				$(this).find('i').toggleClass('fa-chevron-up fa-chevron-down');
 
 				return false
 
@@ -193,12 +204,12 @@ Select drop down
 		slidertestimonial.bxSlider({
 			mode: 'vertical',
             auto: true,
-            pause: 2000           
-           
+            pause: 2000
+
 		})
 	} catch(err) {}
 
-	// 9. Testimonial slider	
+	// 9. Testimonial slider
 	$('.testimonial-sliders').owlCarousel({
         loop: true,
    		autoplay:true,
@@ -215,10 +226,10 @@ Select drop down
             },
             992:{
                 items:2
-            }            
+            }
         }
     });
-	
+
 	// 10. Room Suite slider
 	function roomsuiteslider (){
 		$('.roomsuite-slider').owlCarousel({
@@ -243,13 +254,13 @@ Select drop down
 					items:3
 				}
 			}
-		}) 
+		})
 	}
 
 
-	//11 welcome four box slider 
+	//11 welcome four box slider
      if ($(window).width() <= 768) {
-      
+
          $('.welcomeiconslider').owlCarousel({
             loop: true,
             margin: 10,
@@ -264,20 +275,20 @@ Select drop down
 				600:{
 					items:2
 
-				}        
+				}
 			}
         })
      }
 
 
- 
-	// 12. zebraDatePickerInit 
+
+	// 12. zebraDatePickerInit
 	function zebraDatePickerInit () {
 		$('.datepicker-example8').Zebra_DatePicker({
 			 format: 'M d, Y'
 		})
 	}
-	
+
 	// 13. GalleryFilter
 	function GalleryFilter () {
 		if ($('.image-gallery').length) {
@@ -294,7 +305,7 @@ Select drop down
 							columnWidth: 1
 						}
 					})
-				})			
+				})
 
 			}else{
 				$('.image-gallery').each(function () {
@@ -308,7 +319,7 @@ Select drop down
 							selectors: {
 								filter: '.'+filterSelector
 							}
-						})	
+						})
 					};
 					$(this).mixItUp({
 						selectors: {
@@ -365,7 +376,7 @@ Select drop down
 			center:true,
 			nav: true,
 			navText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>'],
-			dots:false,        
+			dots:false,
 			URLhashListener:true,
 			autoplayHoverPause:true,
 			startPosition: 'URLHash'
@@ -382,7 +393,7 @@ Select drop down
 		}
 	}
 
-	// 18. Testimonial slider	
+	// 18. Testimonial slider
 	$('.testimonial-sliders-two').owlCarousel({
 		loop: true,
 		autoplay:true,
@@ -392,7 +403,7 @@ Select drop down
 		//navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
 		responsiveClass:true,
 		autoplayTimeout:3000,
-		autoplayHoverPause:true        
+		autoplayHoverPause:true
 	});
 
 
@@ -421,9 +432,9 @@ Select drop down
 					items:5
 				}
 			}
-		})   
+		})
 	}
-	
+
 	// 20. Room Suite slider
 	function roomsuitesliderhometwo (){
 		$('.roomsuite-slider-two').owlCarousel({
@@ -448,9 +459,9 @@ Select drop down
 					items:4
 				}
 			}
-		})   
+		})
 	}
-	
+
 	// 21. Select drop down
 	function selectMenu() {
 		if ($('.select-menu').length) $('.select-menu').selectmenu()
@@ -498,20 +509,20 @@ Select drop down
 			selector: 'a[data-imagelightbox]'
 		})
 	}
-		
+
 	// instance of fuction while Window Load event
 	$(window).on('load', function () {
 		SmoothMenuScroll();
 		customScrollBarHiddenSidebar();
 		handlePreloader()
 	});
-	
+
 	// instance of fuction while Window Scroll event
-	$(window).on('scroll', function () {	
+	$(window).on('scroll', function () {
 		stickyHeader()
 	})
-	
-	
-	
-   
+
+
+
+
 })(jQuery)
