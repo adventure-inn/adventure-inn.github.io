@@ -31,13 +31,274 @@
 </head>
 <body>
 <!-- .hidden-bar -->
+    <section class="side-menu" id="sidebarCollapse">
 
-    <div class="include" data-module="navbar"></div>
+    	<button class="close-button" type="button" data-toggle="collapse" data-target="#sidebarCollapse" aria-expanded="false" aria-controls="sidebarCollapse"><i class="fa fa-times"></i></button>
+
+        <div class="side-menu-widget about-widget">
+            <a href="index.html" class="logo">
+                <img src="images/icon/lr-home.png" alt="Awesome Image"/>
+            </a>
+            <h3 class="title playball-font">Welcome to Resort</h3><!-- /.title playball-font -->
+            <p>Edolor sit amet, consectetur, adipis civelit sed quia non qui dolorem ipsum quia dolor sit amet, consectetur, adipis civelit. </p>
+        </div><!-- /.side-menu-widget -->
+        <div class="side-menu-widget gallery-widget">
+            <div class="title-box">
+                <h4>From Our Gallery</h4>
+                <span class="decor-line inline"></span>
+            </div><!-- /.title-box -->
+            <ul class="list-inline">
+                <li>
+                    <a href="#"><img src="images/gallery-thumb/1.jpg" alt="Awesome Image"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/gallery-thumb/2.jpg" alt="Awesome Image"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/gallery-thumb/3.jpg" alt="Awesome Image"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/gallery-thumb/4.jpg" alt="Awesome Image"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/gallery-thumb/5.jpg" alt="Awesome Image"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/gallery-thumb/6.jpg" alt="Awesome Image"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/gallery-thumb/7.jpg" alt="Awesome Image"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/gallery-thumb/8.jpg" alt="Awesome Image"/></a>
+                </li>
+            </ul><!-- /.list-inline -->
+            <ul class="contact-info">
+            	<li>hello@youremail.com</li>
+            	<li>+1234567890</li>
+            </ul><!-- /.contact-info -->
+        </div><!-- /.side-menu-widget -->
+        <div class="side-menu-widget subscribe-widget">
+        	<div class="title-box">
+                <h4>Subscribe for our Special Offers</h4>
+                <span class="decor-line inline"></span>
+            </div><!-- /.title-box -->
+            <form action="#" class="clearfix">
+            	<input type="text" placeholder="Enter email address" />
+            	<button type="submit" class="res-btn">Subscribe</button>
+            </form>
+        </div>
+    </section><!-- /.side-menu -->
+
+
+    <section class="top-bar dhomev">
+        <div class="container">
+            <div class="pull-left left-infos contact-infos">
+                <ul class="list-inline">
+                    <li>
+                        <a href="#"><i class="fa fa-phone"></i> (+44) 555 890767</a>
+                    </li><!-- comment for inline hack
+                     --><li>
+                        <a href="#"><i class="fa fa-map-marker"></i> 56, Building- Avenue-96, New YOrk</a>
+                    </li><!-- comment for inline hack
+                     --><li>
+                        <a href="#"><i class="fa fa-envelope"></i> info@saturnthemes.com</a>
+                    </li>
+                </ul>
+            </div><!-- /.pull-left left-infos -->
+            <div class="pull-right right-infos link-list">
+                <ul class="list-inline">
+                    <li>
+                        <a href="#">Login</a>
+                    </li><!-- comment for inline hack
+                     --><li>
+                        <a href="#">Registration</a>
+                    </li>
+                </ul>
+            </div><!-- /.pull-right right-infos link-list -->
+        </div><!-- /.container -->
+    </section><!-- /.top-bar -->
+
+    <nav class="navbar navbar-default  _fixed-header _light-header stricky" id="main-navigation-wrapper">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">
+                    <img alt="Awesome Image" src="images/header/logo2.png">
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="main-navigation">
+                <ul class="nav navbar-nav ">
+                    <li>
+                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="glyphicon glyphicon-chevron-down"></span></a>
+						<ul class="dropdown-submenu dropdown-menu">
+							<li><a href="index.html">Home Default</a></li>
+							<li><a href="index-2.html">Home 2</a></li>
+							<li><a href="index-3.html">Home 3</a></li>
+							<li><a href="index-4.html">Home 4</a></li>
+							<li><a href="index-5.html">Home 5</a></li>
+						</ul>
+					</li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="glyphicon glyphicon-chevron-down"></span></a>
+						<ul class="dropdown-submenu dropdown-menu">
+                            <li><a href="aboutus.html">Introduction</a></li>
+                            <li><a href="activities.html">Our Activities</a></li>
+                            <li><a href="aminities.html">Resort Aminities</a></li>
+                            <li><a href="family-fun.html">Family Fun</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="tracing.html">Tracing</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Suits &amp; Rooms <span class="glyphicon glyphicon-chevron-down"></span></a>
+						<ul class="dropdown-submenu dropdown-menu">
+							<li><a href="room2.html">Room Grid</a></li>
+							<li><a href="room1.html">Room List</a></li>
+							<li><a href="suite-room.html">Room Stylish</a></li>
+							<li><a href="single-room.html">Single Room</a></li>
+						</ul>
+                    </li>
+                    <li>
+                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery <span class="glyphicon glyphicon-chevron-down"></span></a>
+						<ul class="dropdown-submenu dropdown-menu">
+							<li><a href="gallery1.html">Gallery Classic</a></li>
+							<li><a href="gallery2.html">Gallery Grid</a></li>
+						</ul>
+                    </li>
+                    <li><a href="our-restaurant.html">Dinning</a></li>
+                    <li><a href="offers.html">offers</a></li>
+                    <li>
+                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="glyphicon glyphicon-chevron-down"></span></a>
+						<ul class="dropdown-submenu dropdown-menu">
+							<li><a href="news-left.html">News Left Sidebar</a></li>
+							<li><a href="news-right.html">News Right Sidebar</a></li>
+							<li><a href="news-details.html">News Details</a></li>
+						</ul>
+                    </li>
+                    <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact us <span class="glyphicon glyphicon-chevron-down"></span></a>
+						<ul class="dropdown-submenu dropdown-menu">
+							<li><a href="contact.html">Contact us</a></li>
+							<li><a href="booking.html">Booking</a></li>
+						</ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav right-side-nav">
+                    <li class="dropdown">
+                        <a href="#"><span class="phone-only">Search</span> <i class="icon icon-Search"></i></a>
+                        <ul class="dropdown-submenu has-search-form align-right">
+                            <li>
+                                <form action="#" class="navbar-form">
+                                    <input type="text" placeholder="Enter Your Keyword" />
+                                    <button type="submit"><i class="icon icon-Search"></i></button>
+                                </form><!-- /.navbar-form -->
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a role="button" data-toggle="collapse" href="#sidebarCollapse" aria-expanded="false" aria-controls="sidebarCollapse"><span class="phone-only">Side Menu</span><i class="fa fa-bars"></i></a>
+                    </li>
+                </ul><!-- /.nav navbar-right -->
+                <form action="#" class="nav-search-form row">
+                	<div class="input-group">
+                		<input type="search" class="form-control" placeholder="Type here for search">
+                		<span class="input-group-addon">
+                			<button type="submit"><i class="icon icon-Search"></i></button>
+                		</span>
+                	</div>
+                </form>
+            </div>
+        </div>
+    </nav>
 
 <!-- Header  Slider style-->
 
-    <div class="include" data-module="carousel"></div>
 
+<!--<section class="home-slider2">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+<img src="images/banner2/1.jpg" alt="Lake Resort">
+
+<div class="carousel-caption">
+    <h2>Spend Your Dream Holidays</h2>
+    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut<br>fugit, sed quia consequuntur magni dolores eos quit.</p>
+    <a href="#">Know more</a>
+    </div>
+</div>
+<div class="item">
+<img src="images/banner2/1.jpg" alt="Lake Resort">
+<div class="carousel-caption"><h2>Spend Your Dream Holidays</h2>
+    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut<br>fugit, sed quia consequuntur magni dolores eos quit.</p>
+    <a href="#">Know more</a></div>
+</div>
+</div>
+</div>
+</section>-->
+
+<div id="minimal-bootstrap-carousel" class="carousel default-home-slider slide carousel-fade shop-slider" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active slide-1" style="background-image: url(images/slider/10.jpg);backgroudn-position: center right;">
+
+            <div class="carousel-caption nhs-caption nhs-caption6">
+	      		<div class="thm-container">
+	      			<div class="box valign-middle">
+	      				<div class="content text-center">
+							<h2 data-animation="animated fadeInUp" class="this-title">Spend Your Dream Holidays</h2>
+							<p data-animation="animated fadeInDown">Book a room at our resort now and get a discount of 30%. Fruit basket, soft drinks and a huge cozy bed are waiting for you. We will do everything to make you feel at home.</p>
+							<a data-animation="animated fadeInLeft" href="#" class="nhs-btn3">Book now</a>
+							<a data-animation="animated fadeInRight" href="#" class="nhs-btn">know more</a>
+	      				</div>
+	      			</div>
+	      		</div>
+	    	</div>
+        </div>
+        <div class="item  slide-2" style="background-image: url(images/slider/11.jpg);backgroudn-position: center right;">
+
+            <div class="carousel-caption nhs-caption nhs-caption7">
+	      		<div class="thm-container">
+	      			<div class="box valign-middle">
+	      				<div class="content text-left pull-left">
+							<h2 data-animation="animated fadeInUp" class="this-title">The Best Place to Relax</h2>
+							<p data-animation="animated fadeInDown">Book a room at our resort now and get a discount of 30%. Fruit basket, soft drinks and a huge cozy bed are waiting for you. We will do everything to make you feel at home.</p>
+							<a data-animation="animated fadeInLeft" href="#" class="nhs-btn3">Book now</a>
+							<a data-animation="animated fadeInRight" href="#" class="nhs-btn">know more</a>
+	      				</div>
+	      			</div>
+	      		</div>
+	    	</div>
+        </div>
+        <div class="item  slide-2" style="background-image: url(images/slider/12.jpg);backgroudn-position: center right;">
+
+            <div class="carousel-caption nhs-caption nhs-caption8">
+	      		<div class="thm-container">
+	      			<div class="box valign-middle">
+	      				<div class="content text-center">
+							<h2 data-animation="animated fadeInUp" class="this-title">We offer you the best</h2>
+							<h2 data-animation="animated fadeInUp" class="this-title">luxury hotel with an impressive history</h2>
+	      				</div>
+	      			</div>
+	      		</div>
+	    	</div>
+        </div>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#minimal-bootstrap-carousel" role="button" data-slide="prev">
+        <i class="fa fa-angle-left"></i>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#minimal-bootstrap-carousel" role="button" data-slide="next">
+        <i class="fa fa-angle-right"></i>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 <!-- Header  Slider style-->
 
 <!-- Search style-->
@@ -754,7 +1015,6 @@
 
 <script src="js/jquery-2.2.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/lod-it.js"></script>
 <script type="text/javascript" src="js/jquery.bxslider.js"></script>
 <!-- owl carousel  -->
 <script src="vendors/owlcarousel/owl.carousel.min.js"></script>
