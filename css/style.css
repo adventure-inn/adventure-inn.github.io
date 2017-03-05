@@ -35,7 +35,7 @@
 28 gallery filter Styles
 29 image-gallery Styles
 30 pop up single gallery item Styles
-31 Booking Styles 
+31 Booking Styles
 32 Single room Styles
 33 Home Two Styles
 34 Home Two main menu Styles
@@ -725,7 +725,7 @@ header {
 }
 
 /* ==============================
-  6. Stricky header Styles 
+  6. Stricky header Styles
 ============================== */
 .main-menu-wrapper.stricky-fixed {
   position: fixed;
@@ -2318,7 +2318,7 @@ footer {
 }
 
 /* ==============================
-  19.Top right search field Styles 
+  19.Top right search field Styles
 ============================== */
 .top_panel_middle .search_wrap {
   display: none;
@@ -2451,7 +2451,7 @@ footer {
 }
 
 /* ==============================
-  20.Top right Search results Styles 
+  20.Top right Search results Styles
 ============================== */
 .search_wrap .search_results {
   display: none;
@@ -4023,7 +4023,7 @@ blockquote footer a {
 }
 
 /* ==============================
-  30.pop up single gallery item Styles 
+  30.pop up single gallery item Styles
 ============================== */
 #single-gallery-modal .modal-dialog img {
   max-width: 100%;
@@ -9684,9 +9684,23 @@ body {
 .final-inner-header {
   display: table;
   height: 245px;
-  background: url(../images/inner-header2.jpg) no-repeat scroll center bottom;
   width: 100%;
   margin: 0;
+}
+.room-header{
+  background: url(../images/room/room-list-header-1920x391.jpg) no-repeat scroll center bottom;
+}
+.small-queen-header {
+  background: url(../images/rooms/small-queen-header-1920x391.jpg) no-repeat scroll center bottom;
+}
+.standard-queen-header {
+  background: url(../images/rooms/standard-queen-header-1920x391.jpg) no-repeat scroll center bottom;
+}
+.double-queen-header {
+  background: url(../images/rooms/double-queen-header-1920x391.jpg) no-repeat scroll center bottom;
+}
+.standard-king-header {
+  background: url(../images/rooms/standard-queen-header-1920x391.jpg) no-repeat scroll center bottom;
 }
 @media (max-width: 767px) {
   .final-inner-header {
