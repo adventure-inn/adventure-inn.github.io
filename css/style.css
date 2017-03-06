@@ -7079,7 +7079,7 @@ body {
 }
 .nasir-activity:nth-child(2):before {
   background: #331b10;
-  opacity: 0.7;
+  opacity: 0;
 }
 .nasir-activity:nth-child(3) {
   background-attachment: fixed;
@@ -7276,18 +7276,7 @@ body {
   opacity: 1;
   transition: all 300ms linear 0s;
 }
-.nasir-activities2 .nav li:nth-child(2) .this-overlay {
-  background: #000;
-}
-.nasir-activities2 .nav li:nth-child(3) .this-overlay {
-  background: #532212;
-}
-.nasir-activities2 .nav li:nth-child(4) .this-overlay {
-  background: #12274f;
-}
-.nasir-activities2 .nav li:nth-child(5) .this-overlay {
-  background: #2c3713;
-}
+
 .nasir-activities2 .nav li:hover img, .nasir-activities2 .nav li:focus img {
   transform: scale(1.1);
   opacity: .8;
@@ -7301,7 +7290,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.7;
+  opacity: 0.1;
   background: #0d1c20;
 }
 .nasir-activities2 .this-texts {
@@ -7315,11 +7304,14 @@ body {
   font-size: 22px;
   font-family: "Playball", cursive;
   margin: 0;
+  text-shadow: 1px 1px #333;
 }
 .nasir-activities2 .this-stitle {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+  text-shadow: 1px 1px #333;
+  font-size: 18px;
 }
 
 /*Contact Map*/
@@ -9718,6 +9710,7 @@ body {
   text-transform: capitalize;
   font-size: 55px;
   color: #fff;
+  text-shadow: 1px 1px #333;
 }
 .final-inner-header .this-title:after {
   content: '';
@@ -10019,4 +10012,22 @@ body {
   right: 0;
 }
 
+.rotate {
+
+  /* Safari */
+  -webkit-transform: rotate(90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+
+  /* IE */
+  -ms-transform: rotate(90deg);
+
+  /* Opera */
+  -o-transform: rotate(90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+
+}
 /*# sourceMappingURL=style.css.map */
