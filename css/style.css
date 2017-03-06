@@ -116,7 +116,7 @@ body {
   height: 100%;
   overflow-x: hidden;
   letter-spacing: 0.2px;
-  color: #aaa;
+  color: #858585;
 }
 
 html {
@@ -983,7 +983,7 @@ header {
   height: 40px;
   background: #fff;
   outline: none;
-  color: #898989;
+  color: #858585;
 }
 
 .ser-in-box .select-menu + .ui-selectmenu-button .ui-selectmenu-text {
@@ -1166,7 +1166,7 @@ header {
 }
 
 .wel-content p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 3em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -1690,7 +1690,7 @@ header {
 }
 
 .our-res .single-tab-content p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 2em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -1900,7 +1900,7 @@ header {
 .testimonial-p .media-body p {
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
   letter-spacing: 0.3px;
-  color: #898989;
+  color: #858585;
   margin-bottom: 1em;
 }
 
@@ -2714,7 +2714,7 @@ footer {
 }
 
 .about-info-box p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 3em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -2972,7 +2972,7 @@ footer {
 }
 
 .room-wrapper .media-body p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -3084,7 +3084,7 @@ footer {
 }
 
 .room-t-wrapper .content p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -3250,7 +3250,7 @@ footer {
 }
 
 .single-sidebar-widget .categories ul li a {
-  color: #898989;
+  color: #858585;
   text-transform: capitalize;
   line-height: 42px;
   display: block;
@@ -3482,7 +3482,7 @@ footer {
 }
 
 .single-blog-post p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 2em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -3553,7 +3553,7 @@ blockquote p {
   float: left;
   font: 400 1.2em/1em "Open Sans", sans-serif;
   letter-spacing: 0.3px;
-  color: #898989;
+  color: #858585;
   width: -webkit-calc(100% - 70px);
   width: calc(100% - 70px);
   margin: 5px 0 0;
@@ -3648,7 +3648,7 @@ blockquote footer a {
 
 .comments .comment .media-body p {
   font: 400 14px/30px "Open Sans", sans-serif;
-  color: #898989;
+  color: #858585;
 }
 
 .comments .comment .media-body .date-reply {
@@ -4119,7 +4119,7 @@ blockquote footer a {
 }
 
 .book-right p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -4147,7 +4147,7 @@ blockquote footer a {
   height: 40px;
   background: #fff;
   outline: none;
-  color: #898989;
+  color: #858585;
 }
 
 .book-left-content .select-menu + .ui-selectmenu-button .ui-selectmenu-text {
@@ -4322,14 +4322,14 @@ blockquote footer a {
 }
 
 .contact-info .media-contact-info p {
-  color: #898989;
+  color: #858585;
   margin: 0;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
 }
 
 .contact-info .media-contact-info p a {
-  color: #898989;
+  color: #858585;
 }
 
 .contact-info .media-contact-info p a:hover {
@@ -4440,7 +4440,7 @@ blockquote footer a {
   height: 40px;
   background: #fff;
   outline: none;
-  color: #898989;
+  color: #858585;
 }
 
 .book-r-form .select-menu + .ui-selectmenu-button .ui-selectmenu-text {
@@ -4550,7 +4550,7 @@ blockquote footer a {
 }
 
 .single-room-wrapper .room-dec-wrapper p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 2em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -4638,7 +4638,7 @@ blockquote footer a {
 
 .single-room-wrapper .room-overview .table > tbody > tr > td {
   border-top: 1px solid transparent;
-  color: #898989;
+  color: #858585;
   font: 400 1.0715em/1em "Open Sans", sans-serif;
   padding: 13px 30px;
 }
@@ -4961,7 +4961,7 @@ blockquote footer a {
 }
 
 .activities-cont p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -5003,7 +5003,7 @@ blockquote footer a {
 }
 
 .our-offer-left p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -5394,7 +5394,7 @@ blockquote footer a {
 }
 
 .room-suite-htwo .item .ro-txt p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 1.8em;
   font: 400 1.0715em/1.5em "Open Sans", sans-serif;
 }
@@ -5509,7 +5509,7 @@ blockquote footer a {
 }
 
 .aminities-wrapper p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 3em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -5619,7 +5619,7 @@ blockquote footer a {
   transition: all 0.5s ease-in-out;
   font: 400 1.0715em/1.7em "Open Sans", sans-serif;
   padding: 0 1.5em 1.7em;
-  color: #898989;
+  color: #858585;
   margin: 0;
 }
 
@@ -5713,7 +5713,7 @@ blockquote footer a {
 }
 
 .activities-content p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 1em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -5729,7 +5729,7 @@ blockquote footer a {
 }
 
 .activities-main p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 3em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -5744,7 +5744,7 @@ blockquote footer a {
 }
 
 .offer-main p {
-  color: #898989;
+  color: #858585;
   margin: 0;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -5776,7 +5776,7 @@ blockquote footer a {
 }
 
 .offer-content p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 3em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -5905,7 +5905,7 @@ blockquote footer a {
 }
 
 .family-content p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -6147,7 +6147,7 @@ blockquote footer a {
 }
 
 .hidden-bar-two .logo-side p {
-  color: #898989;
+  color: #858585;
   margin: 0;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -6160,7 +6160,7 @@ blockquote footer a {
 .hidden-bar-two .hidden-bar-closer {
   background: #fff;
   border: 1px solid #d0d0d0;
-  color: #898989;
+  color: #858585;
   line-height: 30px;
   border-radius: 0;
   right: 30px;
@@ -6205,7 +6205,7 @@ blockquote footer a {
 }
 
 .hidden-bar-two .side-gallery h3 {
-  color: #898989;
+  color: #858585;
   font: 600 1.26em/1em "Open Sans", sans-serif;
   position: relative;
   margin: 0 0 1.7em;
@@ -6244,7 +6244,7 @@ blockquote footer a {
 }
 
 .hidden-bar-two .side-email a {
-  color: #898989;
+  color: #858585;
   font: 400 1.1em/1.7em "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
@@ -6306,14 +6306,14 @@ blockquote footer a {
 }
 
 .m-traking .maount-content p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 3em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
 }
 
 .m-traking .maount-content h5 {
-  color: #898989;
+  color: #858585;
   margin: 0 0 0.3em;
   padding: 1em 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -6395,7 +6395,7 @@ blockquote footer a {
 }
 
 .rest-content p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -6409,7 +6409,7 @@ blockquote footer a {
 .rest-content ul li {
   padding: 0 0 0 1em;
   margin: 0;
-  color: #898989;
+  color: #858585;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
   font-style: italic;
 }
@@ -6432,7 +6432,7 @@ blockquote footer a {
 }
 
 .our-special-wrapper p {
-  color: #898989;
+  color: #858585;
   margin: 0 0 1.5em;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -6508,7 +6508,7 @@ blockquote footer a {
 }
 
 .tab-inner-cont .media .media-left p {
-  color: #898989;
+  color: #858585;
   margin: 0;
   padding: 0;
   font: 400 1.0715em/1.8em "Open Sans", sans-serif;
@@ -6853,7 +6853,7 @@ body {
 .n-welcome-blocks .sec-header + p {
   font-size: 15px;
   line-height: 26px;
-  color: #898989;
+  color: #858585;
   margin-bottom: 45px;
 }
 
@@ -6873,7 +6873,7 @@ body {
 .n-welcome-block p {
   font-size: 14px;
   line-height: 26px;
-  color: #898989;
+  color: #858585;
   margin-bottom: 22px;
 }
 
@@ -6897,7 +6897,7 @@ body {
 .driving-direction .sec-header-two + p {
   font-size: 15px;
   line-height: 24px;
-  color: #898989;
+  color: #858585;
   margin-bottom: 25px;
 }
 
@@ -6922,7 +6922,7 @@ body {
 .direction-lists li span {
   display: block;
   font-size: 14px;
-  color: #898989;
+  color: #858585;
   margin-top: 5px;
 }
 
@@ -6960,7 +6960,7 @@ body {
   width: 47px;
   text-align: center;
   font-size: 28px;
-  color: #898989;
+  color: #858585;
   vertical-align: middle;
 }
 .bee-accordion .panel-heading [aria-expanded="false"]:after {
@@ -6999,7 +6999,7 @@ body {
 }
 .bee-accordion p {
   font: 14px/24px "Open Sans", sans-serif;
-  color: #898989;
+  color: #858585;
   margin-bottom: 20px;
   letter-spacing: 0.3px;
 }
@@ -7157,7 +7157,7 @@ body {
 .nasir-welcome-style p {
   font: 15px/26px "Open Sans", sans-serif;
   letter-spacing: 0.3px;
-  color: #8c8c8c;
+  color: #858585;
   margin: 0;
   padding-bottom: 40px;
 }
@@ -7242,7 +7242,7 @@ body {
 }
 .nasir-activities2 .sec-header + p {
   margin-bottom: 55px;
-  color: #898989;
+  color: #858585;
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 0.3px;
@@ -7325,7 +7325,7 @@ body {
 }
 
 .nasir-contact-box {
-  width: 401px;
+  width: 420px;
   position: absolute;
   right: calc(50% - 515px);
   background: #373737;
@@ -7592,7 +7592,7 @@ body {
 }
 .fpackage p {
   font: 15px/26px "Open Sans", sans-serif;
-  color: #898989;
+  color: #858585;
   margin: 0;
 }
 
@@ -7683,7 +7683,7 @@ body {
 
   .nasir-contact-box {
     right: 50%;
-    margin-right: -401px;
+    margin-right: -420px;
   }
 
   .nasir-activities2 .this-texts {
@@ -8908,7 +8908,7 @@ body {
 
 .top-bar .contact-infos ul li a i {
   font-size: 20px;
-  color: #898989;
+  color: #858585;
   margin-right: 6px;
   position: relative;
 }
@@ -9292,7 +9292,7 @@ body {
 
 .side-menu p {
   font-size: 15px;
-  color: #898989;
+  color: #858585;
   line-height: 1.733333;
 }
 
@@ -9304,7 +9304,7 @@ body {
   font-size: 18px;
   line-height: 1.733333;
   font-family: 'Open Sans';
-  color: #898989;
+  color: #858585;
   font-weight: 600;
   font-style: italic;
   display: inline-block;
@@ -9370,7 +9370,7 @@ body {
 
 .side-menu .contact-info li {
   font-size: 16px;
-  color: #898989;
+  color: #858585;
   line-height: 1;
 }
 

@@ -62,7 +62,7 @@
 .Zebra_DatePicker td.dp_weekend                 { background: #D8D8D8 }
 .Zebra_DatePicker td.dp_weekend_disabled        { color: #CCC; cursor: default }
 .Zebra_DatePicker td.dp_selected                { background: #5A4B4B; color: #FFF !important }
-.Zebra_DatePicker td.dp_week_number             { background: #FFCC33; color: #555; cursor: text; font-style: italic }
+.Zebra_DatePicker td.dp_week_number             { background: #FFCC33; color: #858585; cursor: text; font-style: italic }
 
 /* = MONTHPICKER
 ----------------------------------------------------------------------------------------------------------------------*/

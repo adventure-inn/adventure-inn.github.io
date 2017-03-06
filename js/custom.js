@@ -37,6 +37,13 @@ Select drop down
 (function($) {
     "use strict";
 
+  $(".activity-link").mouseover(function(e){
+    $(this).css( 'cursor', 'pointer' );
+  });
+  $(".activity-link").click(function(e){
+    var href = $(this).data( 'href');
+    window.open(href, '_blank');
+  });
 	function bootstrapAnimatedLayer() {
 
 		/* Demo Scripts for Bootstrap Carousel and Animate.css article
