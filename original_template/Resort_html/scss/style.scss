@@ -4804,26 +4804,26 @@ blockquote footer a {
     background: #a7cc38;
     margin: 0 0 0 12px;
 }
-.aminities-wrapper{
+.-wrapper{
     position: relative;
     overflow: hidden;
     margin: 0 0 2.5em;
 }
-.aminities-outer{
+.-outer{
   position: relative;  
 }
 
-.aminities-wrapper p{
+.-wrapper p{
       color: #858585;
     margin: 0 0 3em;
     padding: 0;
     font: 400 1.0715em/1.8em "Open Sans", sans-serif;  
 }
-.aminities-outer ul{
+.-outer ul{
    margin: 0 0 2em; padding: 0;
     overflow: hidden;
 }
-.aminities-outer ul li{
+.-outer ul li{
    float: left;
     width: 23%;
     overflow: hidden;
@@ -4832,10 +4832,10 @@ blockquote footer a {
    cursor: default;
     margin: 0 1.3%;     
 }
-.aminities-outer ul li:first-child{
+.-outer ul li:first-child{
    margin-left: 0;  
 }
-.aminities-outer ul li:last-child{
+.-outer ul li:last-child{
    margin-right: 0; 
 }
 .view {
@@ -4856,7 +4856,7 @@ blockquote footer a {
    left: 0;
     padding: 1.5em 0;
 }
-.view-aminities img {
+.view- img {
    -webkit-transition: all 0.4s ease-in-out 0.2s;
    -moz-transition: all 0.4s ease-in-out 0.2s;
    -o-transition: all 0.4s ease-in-out 0.2s;
@@ -4869,7 +4869,7 @@ blockquote footer a {
     display: inline-block;
     
 }
-.view-aminities .mask {
+.view- .mask {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 0;
@@ -4886,9 +4886,9 @@ blockquote footer a {
    -webkit-border-radius: 0px;
    -moz-border-radius: 0px;
    border-radius: 0px;
-   background: url(../images/aminities/hover-bg.jpg) rgba(143,178,25,1) no-repeat 0 0;   
+   background: url(../images//hover-bg.jpg) rgba(143,178,25,1) no-repeat 0 0;   
 }
-.view-aminities h2 {
+.view- h2 {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 1;  
@@ -4903,7 +4903,7 @@ blockquote footer a {
     font:400 1.55em/1em 'PT Serif', serif;
     font-style: italic;
 }
-.view-aminities p {
+.view- p {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
    filter: alpha(opacity=0);
    opacity: 1;
@@ -4918,7 +4918,7 @@ blockquote footer a {
     margin: 0;
 }
 
-.view-aminities:hover .mask {
+.view-:hover .mask {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
    opacity: 1;
@@ -4933,7 +4933,7 @@ blockquote footer a {
    -ms-transition-delay: 0.2s;
    transition-delay: 0.2s;
 }
-.view-aminities:hover img {
+.view-:hover img {
    -webkit-transition: all 0.4s ease-in-out 0.2s;
    -moz-transition: all 0.4s ease-in-out 0.2s;
    -o-transition: all 0.4s ease-in-out 0.2s;
@@ -4945,9 +4945,9 @@ blockquote footer a {
     text-align: center;
     display: inline-block;
 }
-.view-aminities:hover h2,
-.view-aminities:hover p,
-.view-aminities:hover a.info {
+.view-:hover h2,
+.view-:hover p,
+.view-:hover a.info {
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
    opacity: 1;
