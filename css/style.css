@@ -9724,6 +9724,9 @@ body {
 .about-header {
   background: url(../images/about/about-us-header-1920x391.jpg) no-repeat scroll center bottom;
 }
+.amenities-header {
+  background: url(../images/amenities/amenities-header-1920x391.jpg) no-repeat scroll center bottom;
+}
 @media (max-width: 767px) {
   .final-inner-header {
     background-size: cover;
