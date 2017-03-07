@@ -9730,6 +9730,9 @@ body {
 .contact-header {
   background: url(../images/contact/contact-us-header-1920x391.jpg) no-repeat scroll center bottom;
 }
+.policies-header {
+  background: url(../images/policies/policies-header-1920x391.jpg) no-repeat scroll center bottom;
+}
 @media (max-width: 767px) {
   .final-inner-header {
     background-size: cover;
