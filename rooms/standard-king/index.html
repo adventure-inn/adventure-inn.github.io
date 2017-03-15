@@ -126,33 +126,78 @@
              <div class="book-r-form">
 
                  <div class="book-form">
-                 <div class="col-md-12"><b>Arrive</b><input class="form-control datepicker-example8" placeholder="Arival Date" type="text"></div>
-                 <div class="col-md-12"><b>Departure</b><input type="text" class="form-control datepicker-example8" placeholder="Departure Date"></div>
-                 <div class="col-md-12">
-                     <b>Adults</b>
-                     <div class="select-box">
-                     <select class="select-menu" name="selectMenu">
-                               <option value="default">Adults</option>
-                               <option value="1">1</option>
-                               <option value="2">2</option>
-                               <option value="3">3</option>
-                               <option value="4">4</option>
-                           </select>
-                     </div>
-                     </div>
-                 <div class="col-md-12"><b>children</b>
-                     <div class="select-box">
-                     <select class="select-menu" name="selectMenu">
-                               <option value="default">Children</option>
-                               <option value="1">1</option>
-                               <option value="2">2</option>
-                               <option value="3">3</option>
-                               <option value="4">4</option>
-                           </select>
-                     </div>
-                     </div>
-                 <div class="col-md-12"><div class="chk-button"><button type="submit" class="res-btn">Check Availability</button></div></div>
+                   <form action=""
+                      method="get"
+                      name="Form1"
+                      id="Form1"
+                      target="_blank"
+                      style="margin:0px;padding:0px;"
+                      onsubmit="return submitBookingForm()">
+                      <!-- onsubmit="invia_form();_gaq.push(['_linkByPost', this]);"> -->
+                      <!-- the 6 date fields are populated by JS when user clicks button -->
+                      <input id="gg" type="hidden" value="" name="gg"><!--start day -->
+                      <input id="mm" type="hidden" value="" name="mm"><!--start month -->
+                      <input id="aa" type="hidden" value="" name="aa"><!--start year -->
+                      <input id="ggf" type="hidden" value="" name="ggf"><!--end day -->
+                      <input id="mmf" type="hidden" value="" name="mmf"><!--end month -->
+                      <input id="aaf" type="hidden" value="" name="aaf"><!--end year -->
+                      <input type="hidden" value="1" name="tot_camere"><!-- Number of rooms -->
+                      <input type="hidden" value="16944" name="id_albergo"><!-- Hotel ID  -->
+                      <input type="hidden" value="usa" name="lingua_int"><!-- Language -->
+                      <input type="hidden" value="8977" name="dc"><!-- -->
+                      <input type="hidden" value="503" name="id_stile"><!-- Style ID -->
+                      <input type="hidden" value="ok" name="headvar"><!-- -->
+                      <input type="hidden" value="si" name="tst_prntz"><!-- -->
 
+                     <!-- ARRIVAL DATE -->
+                     <div id="arrival_date" class="col-md-12">
+                       <b>Arrival Date</b>
+                       <input id="datepickerp" class="form-control datepicker-example8" placeholder="Arrival Date" type="text">
+                     </div>
+
+                     <!-- DEPARTURE DATE -->
+                     <div id="data_partenza" class="col-md-12">
+                       <b>Departure Date</b>
+                       <input id="datepickerf" type="text" class="form-control datepicker-example8" placeholder="Departure Date">
+                     </div>
+
+                     <div class='clearboth'></div>
+
+                     <!-- NUMBER OF ADULTS -->
+                     <div id="adulti" class="col-md-12">
+                       <b>Adults</b>
+                       <div class="select-box">
+                       <select class="select-menu" name="tot_adulti">
+                          <option value="1">1</option>
+                          <option value="2" selected="selected">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                        </select>
+                       </div>
+                     </div>
+
+                     <!-- NUMBER OF CHILDREN -->
+                     <div id="bambini" class="col-md-12">
+                       <b>children</b>
+                       <div class="select-box">
+                       <select class="select-menu" name="tot_bambini">
+                                  <option value="0" selected >0</option>
+                                 <option value="1">1</option>
+                                 <option value="2">2</option>
+                                 <option value="3">3</option>
+                             </select>
+                       </div>
+
+                       </div>
+                     <!--  -->
+                     <div class="col-md-12">
+                       <div class="chk-button">
+                         <button type="submit" class="res-btn">Check Availability
+                         </button>
+                       </div>
+                     </div>
+
+                   </form>
                  </div>
 
              </div>
@@ -456,6 +501,7 @@
    <script src="../../js/jquery.mixitup.min.js"></script>
    <script src="../../js/jquery.fancybox.pack.js"></script>
    <script src="../../vendors/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+   <script src="../../js/booking.js"></script>
    <script src="../../js/custom.js"></script>
  </body>
 </html>

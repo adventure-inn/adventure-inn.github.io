@@ -1,0 +1,52 @@
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-md-4 col-md-offset-8 col-sm-offset-6">
+                     <form class="search-sec" 
+                       action="" 
+                       method="get" 
+                       name="Form1" 
+                       id="Form1" 
+                       target="_blank" 
+                       style="margin:0px;padding:0px;" 
+                       onsubmit="return submitBookingForm()">
+					<h2 class="this-title">Check Availability</h2>
+                     <input id="gg" type="hidden" value="" name="gg"><!--start day -->
+                     <input id="mm" type="hidden" value="" name="mm"><!--start month -->
+                     <input id="aa" type="hidden" value="" name="aa"><!--start year -->
+                     <input id="ggf" type="hidden" value="" name="ggf"><!--end day -->
+                     <input id="mmf" type="hidden" value="" name="mmf"><!--end month -->
+                     <input id="aaf" type="hidden" value="" name="aaf"><!--end year -->
+                     <input type="hidden" value="1" name="tot_camere"><!-- Number of rooms -->
+                     <input type="hidden" value="16944" name="id_albergo"><!-- Hotel ID  -->
+                     <input type="hidden" value="usa" name="lingua_int"><!-- Language -->
+                     <input type="hidden" value="8977" name="dc"><!-- -->
+                     <input type="hidden" value="503" name="id_stile"><!-- Style ID -->
+                     <input type="hidden" value="ok" name="headvar"><!-- -->
+                     <input type="hidden" value="si" name="tst_prntz"><!-- -->
+                    <!-- ARRIVAL DATE -->
+					<input class="form-control datepicker-example8" id="datepickerp"  placeholder="Arrival Date" type="text">
+                   <!-- DEPARTURE DATE -->
+					<input type="text" class="form-control datepicker-example8" id="datepickerf" placeholder="Departure Date">
+
+                    <!-- NUMBER OF ADULTS -->
+					<select class="select-menu form-control" name="tot_adulti">
+						<option value="2">Adults</option>
+                         <option value="1">1</option>
+                         <option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+					</select>
+
+                    <!-- NUMBER OF CHILDREN -->
+					<select class="select-menu form-control" name="tot_bambini">
+						<option value="0">Children</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+					</select>
+					<button type="submit" class="res-btn">Check Availability</button>
+				</form>
+			</div>
+		</div>
+	</div>
