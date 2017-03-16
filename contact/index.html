@@ -50,7 +50,20 @@
             <div class="pull-right right-infos link-list">
                 <ul class="list-inline">
                     <li>
-                        <a href="/">BOOK NOW</a>
+                      <form action="https://autoclerkdigital.verticalbooking.com/reservation_hotel_start.htm"
+                   method="get"
+                   name="Form3"
+                   id="Form3"
+                   target="_self"
+                   style="margin:0px;padding:0px;">
+                   <input type="hidden" value="16944" name="id_albergo"><!-- Hotel ID  -->
+                   <input type="hidden" value="usa" name="lingua_int"><!-- Language -->
+                   <input type="hidden" value="8977" name="dc"><!-- -->
+                   <input type="hidden" value="503" name="id_stile"><!-- Style ID -->
+                   <input type="hidden" value="ok" name="headvar"><!-- -->
+                   <input type="hidden" value="si" name="tst_prntz"><!-- -->
+                   <a href="#" onclick="Javascript:submitTopBookingForm()">BOOK NOW</a>
+                </form>
                     </li><!-- comment for inline hack
                      --><li>
                         <a href="/rooms">ROOMS</a>
