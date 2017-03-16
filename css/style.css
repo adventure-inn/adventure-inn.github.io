@@ -9733,6 +9733,9 @@ body {
 .policies-header {
   background: url(../images/policies/policies-header-1920x391.jpg) no-repeat scroll center bottom;
 }
+.weather-header {
+  background: url(../images/weather/weather-header-1920x391.jpg) no-repeat scroll center bottom;
+}
 @media (max-width: 767px) {
   .final-inner-header {
     background-size: cover;
