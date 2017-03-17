@@ -10072,4 +10072,9 @@ body {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 
 }
+
+a[href="https://www.tripadvisor.com/"] {
+  pointer-events: none;
+  cursor: default;
+}
 /*# sourceMappingURL=style.css.map */
