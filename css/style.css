@@ -1318,7 +1318,7 @@ header {
 
 .room-suite .item .ro-img:before {
   position: absolute;
-  background-color: rgba(167, 204, 56, 0.4);
+  /*background-color: rgba(167, 204, 56, 0.4);*/
   content: "";
   top: 0;
   left: 0;
